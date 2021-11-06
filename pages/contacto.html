@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="conceptos de html 5 y css 3" />
+    <meta name="author" content="Melina Santillan" />
+    <meta name="keywords"
+      content="html 5, listas, tablas, formularios, botones"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Mi Primer web</title>
+  </head>
+  <body>
+    <header>
+      
+      <nav>
+        <a href="../index.html">Inicio</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="elementos.html">Elementos</a>
+        <a href="https://mail.google.com/mail/u/1/#inbox" target="_blank"
+          >Pagina externa</a>
+        <a href="position.html">Position</a>
+      </nav>
+    </header>
+    <main>
+      
+      <section class="titulo">
+        <h1 id="tituloprincipal">Practica de HTML y CSS</h1>
+        <h4>Comenzamos nuestra pagina web</h4>
+      </section>
+        <section class="contenedor">
+            <h2>Formulario de Contacto</h2>
+            <form>
+                <label for="nombre"> Nombre y Apellido</label>
+                <input type="text" id="nombre" placeholder="Juan Perez" required>
+                <div>
+                <label for="email"> Contacto</label>
+                <input type="email" id="email" placeholder="contacto@gmail.com">
+            </div>
+            <div>
+                <label for="texto">Consulta</label>
+                <textarea id="texto" rows="5"></textarea>
+            </div>
+            <div>
+                <label for="">Como nos conociste:</label>
+                <select>
+                    <option value="">Seleccione una opcion</option>
+                    <option value="">Instagram</option>
+                    <option value="">Facebook</option>
+                    <option value="">Diarios</option>
+                    <option value="">otros</option>
+                </select>
+            </div>
+                <button type="submit">Enviar</button>
+            </form>
+
+        </section>
+      
+      
+    </main>
+    <footer>
+      
+      <p>&copy;Todos los derechos reservados</p>
+    </footer>
+  </body>
+</html>

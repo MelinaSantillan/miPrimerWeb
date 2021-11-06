@@ -1,0 +1,147 @@
+/* esto es un comentario */
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Yaldevi:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Yaldevi", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Anton", sans-serif;
+}
+/* selector de etiqueta */
+nav {
+  background: #333;
+  padding: 25px 15px;
+  position: fixed;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0px 5px;
+  padding: 0px 5px;
+}
+
+nav a:hover {
+  background: blueviolet;
+  padding: 15px 5px;
+}
+/* selector de clase */
+.contenedor {
+  margin: 30px;
+}
+
+.titulo {
+  background: rgb(10, 143, 252);
+  padding: 100px 0px 40px 0px;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  background: #333;
+  padding: 20px;
+  color: white;
+  margin: 0%;
+  text-align: center;
+}
+.imagencentrada {
+  text-align: center;
+}
+/*selector de id*/
+#tituloprincipal {
+  color: rgb(150, 12, 35);
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
+
+hr {
+  margin: 15px 0px;
+}
+
+.caja {
+  width: 150px;
+  height: 150px;
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+}
+
+#azul {
+  background: blue;
+  position: relative;
+  left: 60px;
+  top: 40px;
+  z-index: -1;
+}
+
+#rojo {
+  background: red;
+  position: absolute;
+  left: 60px;
+  top: 30px;
+}
+
+#amarillo {
+  background: yellow;
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+}
+
+.contornoPrincipal {
+  border: 1px solid black;
+  position: relative;
+}
+
+/*.cuadrado {
+  border: 1px solid red;
+}*/
+
+#tituloSticky {
+  background: coral;
+  position: sticky;
+  top: 40px;
+  z-index: -1;
+}
+
+th,
+td,
+table {
+  border: 2px solid green;
+}
+thead{
+  background: rgba(0, 162, 255, 0.507);
+}
+
+
+/* filas impares=odd */
+tbody tr:nth-child(odd) {
+  background: rgba(248, 117, 182, 0.568);
+}
+
+/* filas pares=even */
+tr:nth-child(even) {
+  background: rgba(132, 245, 88, 0.274);
+}
+
+td,
+th {
+  padding: 10px;
+}
+/* contenedor padre para flex box */
+.fexBox{
+  /*border: 2px solid blue;*/
+  display: flex;
+}
